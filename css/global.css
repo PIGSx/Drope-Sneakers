@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Kanit:wght@500&family=Lato&family=Montserrat:wght@300&family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bungee&family=Kanit:wght@500&family=Lato&family=Montserrat:wght@300&family=Open+Sans&family=Roboto:wght@900&display=swap');
 html {
   scroll-behavior: smooth;
 }
@@ -29,7 +29,7 @@ nav {
 }
 
 .nav-list a {
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Kanit', sans-serif;
   text-decoration: none;
   color: #fff;
   margin-right: 10px;
@@ -95,10 +95,6 @@ nav {
     justify-content: space-evenly;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
-  }
-
-  .nav-list a {
-    font-family: 'Bungee Inline', cursive;
   }
   
   .nav-list li {
