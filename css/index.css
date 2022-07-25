@@ -94,6 +94,11 @@
     text-align: center;
     border-bottom: 1px solid #000;
 }
+.coming{
+    color: #444;
+    text-align: center;
+    font-size: 14px;
+}
 
 /* rodapé */
 footer {
@@ -116,6 +121,11 @@ footer .services .service {
 
 footer .services .service p {
     max-width: 300px;
+}
+.icons{
+    color: #370f53;
+    padding: 2px; 
+    font-size: 18px;
 }
 
 footer #contact {
