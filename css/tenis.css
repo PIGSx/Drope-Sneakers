@@ -78,6 +78,6 @@ body {
 }
 @media screen and (max-width: 768px) {
     .nav-list {
-      top: 8%;
+      top: 12%;
     }
 }

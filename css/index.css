@@ -54,6 +54,7 @@
     background: #23232e;
     color: white;
     height: 25vh;
+    align-items: center;
 }
 
 .news {
@@ -61,7 +62,7 @@
     text-align: center;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    
 }
 
 /* botao */
