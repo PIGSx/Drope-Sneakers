@@ -31,5 +31,42 @@
     </nav>
   </header>
   <script src="js/menu.js"></script>
+  <!-- registre-se -->
+  <div class="container">
+    <div class="center">
+      <h1>registre-se</h1>
+      <form method="post" action="">
+        <div class="txt_field">
+          <input type="text" name="name" required>
+          <span></span>
+          <label>nome</label>
+          <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
+        </div>
+        <div class="txt_field">
+          <input type="email" name="email" required>
+          <span></span>
+          <label>email</label>
+          <span class="span-required">digite um email valido</span>
+        </div>
+        <div class="txt_field">
+          <input type="password" name="password" required>
+         <span></span>
+          <label>senha</label>
+          <span class="span-required">digite uma senha com no mínimo 8 caracteres</span>
+        </div>
+        <div class="txt_field">
+          <input type="password" name="cpassword" required>
+          <span></span>
+          <label>confirme sua senha</label>
+          <span class="span-required">Senhas devem ser compatíveis</span>
+        </div>
+          <input type="submit" name="submit" value="entrar">
+          <div class="sign-link">
+            <p>ja tem uma conta ? <a href="login.html">clique aqui</a></p>
+          </div>
+      </form>
+    </div>
+  </div>
+
 </body>
 </html>
