@@ -48,7 +48,7 @@ form .txt_field{
     top: 14px;
     font-size: 12px;
     color: red;
-    margin: 4px;
+    margin: 3px;
     display: none;
 }
 .txt_field span::before{

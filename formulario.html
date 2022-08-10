@@ -37,7 +37,7 @@
       <h1>registre-se</h1>
       <form id="form" method="post" action="">
         <div class="txt_field">
-          <input type="text" name="name" required>
+          <input type="text" name="name" class="inputs required" oninput="nameValidate()">
           <span></span>
           <label>nome</label>
           <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
@@ -67,6 +67,6 @@
       </form>
     </div>
   </div>
-
+<script src="js/form.js"></script>
 </body>
 </html>
