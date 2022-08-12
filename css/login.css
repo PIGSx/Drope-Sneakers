@@ -85,4 +85,7 @@ select:-webkit-autofill:focus {
     .nav-list {
       top: 10%;
     }
+    footer{
+            padding: 30px;
+    }
 }

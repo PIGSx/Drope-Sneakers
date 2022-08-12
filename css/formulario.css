@@ -1,8 +1,7 @@
 .center{
-    position: absolute;
-    top: 50%;
+    position: relative;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
     width: 30vw;
     background: #121212;
     border-radius: 15px;
@@ -15,34 +14,11 @@
     color: #9214ec;
 }
 .center form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     padding: 0 30px;
     box-sizing: border-box;
-}
-
-form .txt_field{
-    position: relative;
-    border-bottom: 2px solid silver;
-    margin: 30px 0;
-    
-}
-.txt_field input{
-    width: 100%;
-    padding: 0 5px;
-    height: 30px;
-    font-size: 12px;
-    color: silver;
-    border: none;
-    background: none;
-    outline: none;
-}
-.txt_field label{
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    color: #9214ec;
-    transform: translateY(-50%);
-    font-size: 14px;
-    pointer-events: none;
 }
 .span-required{
     top: 14px;
@@ -51,42 +27,36 @@ form .txt_field{
     margin: 3px;
     display: none;
 }
-.txt_field span::before{
-    content: '';
-    position: absolute;
-    top: 30px;
-    left: 0;
-    width: 0px;
-    height: 2px;
-    background:  #9214ec;
-    transition: .5s;
-}
-.txt_field input:focus ~ label,
-.txt_field input:valid ~ label{
-    top: -5px;
-    color: #9214ec;
-}
-.txt_field input:focus ~ span::before,
-.txt_field input:valid ~ span::before{
+.inputs{
+    padding: 8px 5px;
+    outline: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: transparent;
+    border: 2px solid #121212;
     width: 100%;
+    box-sizing: border-box;
+    transition: .2s;
 }
+.inputs:focus{
+    border-color: #9214ec;
+}
+
 input[type="Submit"]{
     width: 45%;
     height: 50px;
     border: 1px solid;
-    border-radius: 24px;
+    border-radius: 10px;
     font-size: 14px;
-    font-weight: 200;
     cursor: pointer;
     transition: 1s;
     margin: 0 25%;
 }
 input[type="Submit"]:hover{
     background: #370f53;
-    color: #fff;
+    color: ivory;
     transition: .5s;
 }
-  
 .sign-link{
     margin: 30px;
     text-align: center;
@@ -100,6 +70,7 @@ input[type="Submit"]:hover{
 .signup_link a:hover{
     text-decoration: underline;
 }
+
 /* deixar o fundo transparente */
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
@@ -118,5 +89,8 @@ select:-webkit-autofill:focus {
 @media screen and (max-width: 768px) {
     .nav-list {
       top: 8%;
+    }
+    footer{
+        padding: 30px;
     }
 }
