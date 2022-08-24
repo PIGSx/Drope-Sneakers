@@ -1,4 +1,5 @@
 /* intro */
+
 .fullpage {
     min-height: 60%;
 }
@@ -23,7 +24,9 @@
     justify-content: space-around;
 }
 
+
 /* painel */
+
 .container {
     display: flex;
     width: 40vw;
@@ -46,7 +49,9 @@
     flex: 6;
 }
 
+
 /* instagram da loja */
+
 .destaque {
     display: flex;
     justify-content: space-around;
@@ -62,10 +67,11 @@
     text-align: center;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
+
 /* botao */
+
 .btn {
     padding: 10px 30px;
     font-size: 15px;
@@ -90,28 +96,31 @@
     margin-top: 20px;
 }
 
+
 /* acessorios */
+
 .supply-text {
     text-align: center;
     border-bottom: 1px solid #000;
 }
-.coming{
+
+.coming {
     color: #444;
     text-align: center;
     font-size: 14px;
 }
 
-@media screen and (max-width: 768px){
-    .container{
-        width: 100%;        
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
     }
-    .destaque{
+    .destaque {
         height: 30%;
     }
-    .news-text{
+    .news-text {
         font-size: 15px;
     }
-    footer{
+    footer {
         padding: 30px;
     }
 }
