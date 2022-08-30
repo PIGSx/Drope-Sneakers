@@ -3,7 +3,7 @@
 
  require('connect.php');
  if(mysqli_query($con,"INSERT INTO `tb_contatos` (`codigo`, `nome`, `email`, `senha`)
- VALUES (NULL, '$nome', '$email', '$senha');")){
+ VALUES (1, '$nome', '$email', '$senha');")){
 
     $msg = "<p class=sucesso>registro criado com sucesso!!</p>";
     } else{

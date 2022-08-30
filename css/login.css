@@ -39,7 +39,7 @@ input {
 }
 
 .entry {
-    position: relative;
+    position: '';
     display: flex;
     margin-bottom: 20px;
 }
@@ -94,7 +94,7 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width: 768px) {
     .nav-list {
-        top: 10%;
+        top: 11%;
     }
     footer {
         padding: 30px;
